@@ -1,0 +1,42 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Sensitive lab artifacts (hashes, loot, credentials, wordlists)
+*.hash
+hash.txt
+*.pot
+loot/
+creds/
+*.zip
+*.rar
+*.7z
+rockyou.txt
+rockyou-withcount.txt
+
+# Captured raw terminal history
+*.zsh_history
+*.bash_history
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node
+node_modules/
+
+# Archive / temp extraction folders
+_*.extracted/
+*.extracted/
